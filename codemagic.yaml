@@ -7,9 +7,9 @@ workflows:
       app_store_connect: circuit_map
     environment:
       ios_signing:
-          distribution_type: app_store
+        distribution_type: app_store
         bundle_identifier: com.mapestCircuit.CircuitMap
-      vars:
+     vars:
           APP_STORE_CONNECT_KEY: circuit_map
         APP_STORE_APPLE_ID: 6782007874
         BUNDLE_ID: "com.mapestCircuit.CircuitMap"
